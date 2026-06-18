@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Charan Kotturi — Android Developer who builds cool apps, flies paragliders, and shreds snowboards." />
+  <title>Charan Kotturi ✦ Android Dev</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="blob blob--1" aria-hidden="true"></div>
+  <div class="blob blob--2" aria-hidden="true"></div>
+  <div class="blob blob--3" aria-hidden="true"></div>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Kotlin</span><span>✦</span><span>Compose</span><span>✦</span><span>Paragliding</span><span>✦</span><span>Snowboarding</span><span>✦</span><span>Clean Architecture</span><span>✦</span><span>Bike Trips</span><span>✦</span><span>MotionLayout</span><span>✦</span><span>KMP</span><span>✦</span>
+      <span>Kotlin</span><span>✦</span><span>Compose</span><span>✦</span><span>Paragliding</span><span>✦</span><span>Snowboarding</span><span>✦</span><span>Clean Architecture</span><span>✦</span><span>Bike Trips</span><span>✦</span><span>MotionLayout</span><span>✦</span><span>KMP</span><span>✦</span>
+    </div>
+  </div>
+
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">charan<span>!</span></a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#interests">Interests</a></li>
+        <li><a href="#goals">Goals</a></li>
+        <li><a href="#contact" class="nav__cta">Say Hi 👋</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <div class="sticker sticker--wave pop">Hey, I'm Charan! 👋</div>
+          <h1 class="hero__title pop pop--1">
+            I build<br />
+            <span class="hero__highlight">Android apps</span><br />
+            that actually<br />
+            <span class="hero__highlight hero__highlight--alt">feel good.</span>
+          </h1>
+          <p class="hero__desc pop pop--2">
+            2+ years crafting Kotlin apps with Jetpack Compose, clean architecture, and way too much attention to scroll performance.
+          </p>
+          <div class="hero__btns pop pop--3">
+            <a href="#about" class="btn btn--yellow">Explore me ↓</a>
+            <a href="#contact" class="btn btn--outline">Let's chat</a>
+          </div>
+        </div>
+        <div class="hero__cards pop pop--4">
+          <div class="fun-card fun-card--tilt-left">
+            <span class="fun-card__emoji">📱</span>
+            <strong>Android Dev</strong>
+            <p>Kotlin · Compose · MVVM</p>
+          </div>
+          <div class="fun-card fun-card--tilt-right fun-card--purple">
+            <span class="fun-card__emoji">🪂</span>
+            <strong>Certified Paraglider</strong>
+            <p>Flying > debugging (sometimes)</p>
+          </div>
+          <div class="fun-card fun-card--tilt-left fun-card--blue">
+            <span class="fun-card__emoji">🏂</span>
+            <strong>Certified Snowboarder</strong>
+            <p>Downhill speed enthusiast</p>
+          </div>
+          <div class="fun-card fun-card--tilt-right fun-card--green">
+            <span class="fun-card__emoji">🏍️</span>
+            <strong>Adventure Seeker</strong>
+            <p>Motorbike trips & new tech</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head pop">
+          <span class="section-emoji">🧑‍💻</span>
+          <h2>About Me</h2>
+          <p class="section-sub">Code by day, adventures by weekend</p>
+        </div>
+
+        <div class="about-layout">
+          <div class="bubble-card pop">
+            <p class="bubble-card__big">
+              Android developer obsessed with <em>scalable UI systems</em>, performance, and making dev life easier.
+            </p>
+            <p>
+              I love solving gnarly UI architecture problems, optimizing RecyclerViews until they're buttery smooth, and building reusable components so nobody has to write the same boilerplate twice.
+            </p>
+            <p>
+              When I'm not in Android Studio, you'll find me on a motorbike ride, in the sky (paragliding!), or on a snowboard slope.
+            </p>
+          </div>
+
+          <div class="principles pop">
+            <h3>My rules ✨</h3>
+            <ul>
+              <li><span>01</span> Keep it simple</li>
+              <li><span>02</span> Reuse when it makes sense</li>
+              <li><span>03</span> Maintainability > cleverness</li>
+              <li><span>04</span> Know your tradeoffs</li>
+              <li><span>05</span> Performance matters</li>
+              <li><span>06</span> DX matters too</li>
+              <li><span>07</span> Never stop learning</li>
+              <li><span>08</span> Solve real problems</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="focus-row">
+          <div class="focus-bubble pop" style="--c: var(--yellow)">
+            <span>🏗️</span>
+            <h4>Clean Architecture</h4>
+            <p>Modular & scalable</p>
+          </div>
+          <div class="focus-bubble pop" style="--c: var(--coral)">
+            <span>⚡</span>
+            <h4>Performance</h4>
+            <p>Silky smooth UI</p>
+          </div>
+          <div class="focus-bubble pop" style="--c: var(--purple)">
+            <span>🧩</span>
+            <h4>Reusable UI</h4>
+            <p>Less boilerplate</p>
+          </div>
+          <div class="focus-bubble pop" style="--c: var(--blue)">
+            <span>🤝</span>
+            <h4>Team Culture</h4>
+            <p>Quality & learning</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--skills" id="skills">
+      <div class="container">
+        <div class="section-head pop">
+          <span class="section-emoji">🛠️</span>
+          <h2>Skills & Tools</h2>
+          <p class="section-sub">The stuff I actually use</p>
+        </div>
+
+        <div class="skills-bento">
+          <div class="skill-box skill-box--big pop" style="--accent: var(--yellow)">
+            <h3>Android</h3>
+            <div class="tags">
+              <span class="tag">Jetpack Compose</span>
+              <span class="tag">MotionLayout</span>
+              <span class="tag">RecyclerView</span>
+              <span class="tag">Navigation</span>
+              <span class="tag">ViewModel</span>
+              <span class="tag">Coroutines</span>
+              <span class="tag">StateFlow</span>
+              <span class="tag">Room</span>
+              <span class="tag">DataStore</span>
+              <span class="tag">WorkManager</span>
+            </div>
+          </div>
+          <div class="skill-box pop" style="--accent: var(--coral)">
+            <h3>Languages</h3>
+            <div class="tags">
+              <span class="tag">Kotlin</span>
+              <span class="tag">Java</span>
+            </div>
+          </div>
+          <div class="skill-box pop" style="--accent: var(--purple)">
+            <h3>Architecture</h3>
+            <div class="tags">
+              <span class="tag">MVVM</span>
+              <span class="tag">MVI</span>
+              <span class="tag">Clean Arch</span>
+              <span class="tag">Modular</span>
+              <span class="tag">Repository</span>
+              <span class="tag">DI</span>
+            </div>
+          </div>
+          <div class="skill-box pop" style="--accent: var(--blue)">
+            <h3>Networking</h3>
+            <div class="tags">
+              <span class="tag">Retrofit</span>
+              <span class="tag">OkHttp</span>
+              <span class="tag">REST</span>
+              <span class="tag">Hilt</span>
+              <span class="tag">Dagger</span>
+            </div>
+          </div>
+          <div class="skill-box pop" style="--accent: var(--green)">
+            <h3>Testing & Ship</h3>
+            <div class="tags">
+              <span class="tag">Unit Tests</span>
+              <span class="tag">UI Tests</span>
+              <span class="tag">Gradle</span>
+              <span class="tag">Git</span>
+              <span class="tag">CI/CD</span>
+              <span class="tag">Play Store</span>
+            </div>
+          </div>
+          <div class="skill-box skill-box--explore pop" style="--accent: var(--pink)">
+            <h3>Currently Exploring 🔭</h3>
+            <div class="tags">
+              <span class="tag tag--glow">Kotlin Multiplatform</span>
+              <span class="tag tag--glow">Navigation 3</span>
+              <span class="tag tag--glow">AI-assisted Dev</span>
+              <span class="tag tag--glow">Reactive Programming</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="interests">
+      <div class="container">
+        <div class="section-head pop">
+          <span class="section-emoji">🚀</span>
+          <h2>What Gets Me Excited</h2>
+          <p class="section-sub">The rabbit holes I happily fall into</p>
+        </div>
+
+        <div class="interest-cards">
+          <article class="interest pop" style="--bg: #FFE066">
+            <span class="interest__num">01</span>
+            <h3>Scalable UI Systems</h3>
+            <p>Reusable RecyclerView systems, generic components, shared UI infra, and navigation patterns that don't break.</p>
+          </article>
+          <article class="interest pop" style="--bg: #FF8A80">
+            <span class="interest__num">02</span>
+            <h3>Advanced Architecture</h3>
+            <p>Navigation, state management, lifecycle, events, process death, and config changes — the fun stuff.</p>
+          </article>
+          <article class="interest pop" style="--bg: #80DEEA">
+            <span class="interest__num">03</span>
+            <h3>Performance Engineering</h3>
+            <p>RecyclerView & Compose optimization, memory, startup time, and scroll performance that feels invisible.</p>
+          </article>
+          <article class="interest pop" style="--bg: #CE93D8">
+            <span class="interest__num">04</span>
+            <h3>Motion & Interaction</h3>
+            <p>MotionLayout, collapsing toolbars, parallax, gesture animations, and velocity-based snapping.</p>
+          </article>
+          <article class="interest pop" style="--bg: #A5D6A7">
+            <span class="interest__num">05</span>
+            <h3>Kotlin Multiplatform</h3>
+            <p>Shared business logic, domain layers, networking — one codebase, multiple platforms.</p>
+          </article>
+          <article class="interest pop" style="--bg: #FFCC80">
+            <span class="interest__num">06</span>
+            <h3>Right Now</h3>
+            <p>Navigation 3, object routes, MotionLayout frameworks, EpoxyController abstractions, and result event patterns.</p>
+          </article>
+        </div>
+
+        <div class="challenge-cloud pop">
+          <h3>Problems I love cracking 🧠</h3>
+          <div class="cloud-tags">
+            <span>Complex scrolling</span>
+            <span>Navigation architecture</span>
+            <span>Reusable UI frameworks</span>
+            <span>State sync</span>
+            <span>Performance bottlenecks</span>
+            <span>Event systems</span>
+            <span>MotionLayout</span>
+            <span>Compose architecture</span>
+            <span>Real-time rendering</span>
+            <span>Process death recovery</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--goals" id="goals">
+      <div class="container">
+        <div class="section-head pop">
+          <span class="section-emoji">🎯</span>
+          <h2>Goals & Vibes</h2>
+          <p class="section-sub">Where I'm going (and what I'm good at)</p>
+        </div>
+
+        <div class="goals-row">
+          <div class="goal-card pop" style="--color: var(--yellow)">
+            <h3>Short-Term 🏃</h3>
+            <ul>
+              <li>Stronger Android Architect</li>
+              <li>Master Jetpack Compose</li>
+              <li>Deep KMP expertise</li>
+              <li>Large-scale mobile products</li>
+            </ul>
+          </div>
+          <div class="goal-card pop" style="--color: var(--coral)">
+            <h3>Long-Term 🌟</h3>
+            <ul>
+              <li>Lead mobile architecture</li>
+              <li>Products for millions</li>
+              <li>Android best practices</li>
+              <li>Scalable mobile platforms</li>
+            </ul>
+          </div>
+          <div class="goal-card pop" style="--color: var(--purple)">
+            <h3>Superpowers 💪</h3>
+            <ul>
+              <li>Problem-solving mindset</li>
+              <li>Curiosity-driven learning</li>
+              <li>Architecture thinking</li>
+              <li>Performance obsession</li>
+              <li>Deep investigation</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="life-grid pop">
+          <div class="life-item"><span>🏍️</span><p>Motorbike trips</p></div>
+          <div class="life-item"><span>🪂</span><p>Paragliding</p></div>
+          <div class="life-item"><span>🏂</span><p>Snowboarding</p></div>
+          <div class="life-item"><span>📱</span><p>App design</p></div>
+          <div class="life-item"><span>🔭</span><p>Android trends</p></div>
+          <div class="life-item"><span>🧠</span><p>Always learning</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--contact" id="contact">
+      <div class="container">
+        <div class="contact-box pop">
+          <span class="contact__emoji">💌</span>
+          <h2>Let's build something awesome!</h2>
+          <p>Open to Android dev roles, architecture gigs, and teams that care about craft.</p>
+          <div class="contact__btns">
+            <a href="mailto:charan.kotturi.linkedin@gmail.com" class="btn btn--yellow btn--big">Email me ✉️</a>
+            <a href="https://github.com/charankotturi" target="_blank" rel="noopener noreferrer" class="btn btn--outline btn--big">GitHub</a>
+            <a href="https://www.linkedin.com/in/charan-kotturi-724999211/" target="_blank" rel="noopener noreferrer" class="btn btn--outline btn--big">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>Made with ☕ & Kotlin by Charan Kotturi</p>
+      <p class="footer__fun">Coder · Flyer · Shredder · Builder</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
