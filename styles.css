@@ -632,6 +632,14 @@ main { position: relative; z-index: 1; }
   flex-shrink: 0;
 }
 
+.project-card__icon--takeone {
+  width: 140px;
+  height: 140px;
+  border-radius: 28px;
+  border: none;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
 .project-card__logo {
   height: 48px;
   width: auto;
