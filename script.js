@@ -41,4 +41,14 @@
       card.style.zIndex = '';
     });
   });
+
+  const emailBtn = document.getElementById('emailBtn');
+  if (emailBtn) {
+    emailBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      const gmailUrl =
+        'https://mail.google.com/mail/u/0/?view=cm&fs=1&to=charan.kotturi.linkedin@gmail.com';
+      window.open(gmailUrl, '_blank', 'noopener,noreferrer');
+    });
+  }
 })();
