@@ -31,6 +31,7 @@
       <ul class="nav__links" id="navLinks">
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
         <li><a href="#interests">Interests</a></li>
         <li><a href="#goals">Goals</a></li>
         <li><a href="#contact" class="nav__cta">Say Hi 👋</a></li>
@@ -215,6 +216,84 @@
               <span class="tag tag--glow">Reactive Programming</span>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--projects" id="projects">
+      <div class="container">
+        <div class="section-head pop">
+          <span class="section-emoji">📦</span>
+          <h2>Projects</h2>
+          <p class="section-sub">Apps I've shipped & ones in the oven</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card pop">
+            <div class="project-card__top">
+              <img
+                class="project-card__icon"
+                src="assets/projects/doompaper-icon.png"
+                alt="DoomPaper app icon"
+                width="72"
+                height="72"
+              />
+              <div class="project-card__meta">
+                <h3>DoomPaper</h3>
+                <p class="project-card__tagline">Screen time → personalized wallpapers</p>
+                <div class="project-card__tags">
+                  <span class="tag">Kotlin</span>
+                  <span class="tag">Jetpack Compose</span>
+                  <span class="tag">Wallpaper</span>
+                </div>
+              </div>
+            </div>
+
+            <p class="project-card__desc">
+              Transforms your daily screen time into unique, dynamic wallpapers — clean, modern designs that soften and evolve as your day goes on. Your digital habits, turned into art on your home screen.
+            </p>
+
+            <div class="project-card__previews" aria-label="DoomPaper screenshots">
+              <img src="assets/projects/doompaper-screenshot-1.png" alt="DoomPaper home screen preview" loading="lazy" />
+              <img src="assets/projects/doompaper-screenshot-2.png" alt="DoomPaper wallpaper preview" loading="lazy" />
+              <img src="assets/projects/doompaper-screenshot-3.png" alt="DoomPaper settings preview" loading="lazy" />
+            </div>
+
+            <a
+              href="https://play.google.com/store/apps/details?id=in.reelhead.doompaper"
+              class="project-card__store"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="project-card__store-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill="currentColor" d="M3.6 1.8c-.3.2-.5.6-.5 1v18.4c0 .4.2.8.5 1l.1.1 10.3-10.3v-.2L3.7 1.7l-.1.1zm12.4 8.5-2.8-2.8 3.4-3.4 5.2 3-1.8 3.2zM14.2 10.3 6.1 2.2l8.1 8.1zm-2.8 2.8-8.1 8.1 8.1-8.1zm1.4 1.4 2.8 2.8-5.2 3 3.4-3.4 2.8-2.4z"/>
+              </svg>
+              Get it on Google Play
+            </a>
+          </article>
+
+          <article class="project-card project-card--soon pop">
+            <span class="project-card__badge">Coming Soon</span>
+
+            <div class="project-card__top project-card__top--center">
+              <img
+                class="project-card__logo"
+                src="assets/projects/takeone-logo.svg"
+                alt="TakeOne logo"
+                width="138"
+                height="48"
+              />
+            </div>
+
+            <p class="project-card__desc project-card__desc--soon">
+              Something new is cooking. TakeOne is my next Android project — more details dropping soon.
+            </p>
+
+            <div class="project-card__soon-placeholder" aria-hidden="true">
+              <span>🚧</span>
+              <p>In development</p>
+            </div>
+          </article>
         </div>
       </div>
     </section>
